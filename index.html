@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Modern Image Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1 class="title">✨ Modern Image Gallery ✨</h1>
+
+  <!-- Filter Buttons -->
+
+  <div class="filters">
+
+    <button onclick="filterImages('all')">All</button>
+
+    <button onclick="filterImages('nature')">Nature</button>
+
+    <button onclick="filterImages('city')">City</button>
+
+    <button onclick="filterImages('animals')">Animals</button>
+
+  </div>
+
+  <!-- Gallery -->
+
+  <div class="gallery">
+
+    <div class="gallery-item nature">
+      <img src="https://picsum.photos/id/1015/600/400">
+      <div class="overlay">Beautiful Nature</div>
+    </div>
+
+    <div class="gallery-item city">
+      <img src="https://picsum.photos/id/1011/600/400">
+      <div class="overlay">Modern City</div>
+    </div>
+
+    <div class="gallery-item animals">
+      <img src="https://picsum.photos/id/1025/600/400">
+      <div class="overlay">Cute Animal</div>
+    </div>
+
+    <div class="gallery-item nature">
+      <img src="https://picsum.photos/id/1039/600/400">
+      <div class="overlay">Green Forest</div>
+    </div>
+
+    <div class="gallery-item city">
+      <img src="https://picsum.photos/id/1043/600/400">
+      <div class="overlay">Night Lights</div>
+    </div>
+
+    <div class="gallery-item animals">
+      <img src="https://picsum.photos/id/237/600/400">
+      <div class="overlay">Dog Portrait</div>
+    </div>
+
+    <div class="gallery-item nature">
+        <img src="https://picsum.photos/id/1056/600/400">
+        <div class="overlay">Mountain View</div>
+    </div>
+
+    <div class="gallery-item city">
+        <img src="https://picsum.photos/id/1060/600/400">
+        <div class="overlay">City Buildings</div>
+    </div>
+
+    <div class="gallery-item animals">
+        <img src="https://picsum.photos/id/1074/600/400">
+        <div class="overlay">Wild Animal</div>
+    </div>
+
+    <div class="gallery-item nature">
+        <img src="https://picsum.photos/id/1084/600/400">
+        <div class="overlay">Beautiful Lake</div>
+    </div>
+
+    <div class="gallery-item city">
+        <img src="https://picsum.photos/id/109/600/400">
+        <div class="overlay">Skyline View</div>
+    </div>
+
+    <div class="gallery-item animals">
+        <img src="https://picsum.photos/id/169/600/400">
+        <div class="overlay">Bird Beauty</div>
+    </div>
+
+  </div>
+
+  <!-- Lightbox -->
+
+  <div class="lightbox" id="lightbox">
+
+    <span class="close">&times;</span>
+
+    <span class="prev">&#10094;</span>
+
+    <img id="lightbox-img">
+
+    <span class="next">&#10095;</span>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
